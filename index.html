@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="asset/css/style.css" />
-    <title>Prueba Modulo 1</title>
+    <title>antes</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -44,7 +44,7 @@
 
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
       <div class="container">
-        <div class=" col-md-7">
+        <div class="col">
           <div>
             <img
               src="asset/img/Mia.jpeg"
@@ -52,17 +52,16 @@
               alt="mi foto"
             />
             <h1 class="display-3 fw-bold my-5">Mis Datos</h1>
-            <p align="center">Macarena Osses Vargas</p>
-            <p align="center">Las Malvas 590-505, Las Condes</p>
-            <p align="center">Santiago - Chile</p>
-            <p align="center">(09) 7649 2250</p>
-            <p align="center">maka.osses@gmail.com</p>
+            <p class="text-end p-0 mb-0">Macarena Osses Vargas</p>
+            <p class="text-end p-0 mb-0">Las Malvas 590-505, Las Condes</p>
+            <p class="text-end p-0 mb-0">Santiago - Chile</p>
+            <p class="text-end p-0 mb-0">(09) 7649 2250</p>
+            <p class="text-end p-0">maka.osses@gmail.com</p>
           </div>
           <div class="mb-5 pb-5">
             <button class="btn btn-lg btn-outline-info me-4">
               <a class="nav-link" href="#trabajos">Experiencia</a>
             </button>
-
             <button class="btn btn-lg btn-outline-info me-4">
               <a class="nav-link" href="#contacto">Educacion</a>
             </button>
@@ -73,333 +72,447 @@
         </div>
       </div>
     </header>
-    <img
-      src="./asset/img/Mia.jpeg"
-      align="center"
-      alt="Foto Macarena Osses"
-      width="200"
-      height="200"
-    />
-    <br />
-    <!-- SHIFT+ALT+a   -->
-    <!-- TITULOS -->
-    <h1 align="center">Macarena Osses Vargas</h1>
-    <p align="center">Las Malvas 590-505, Las Condes</p>
-    <p align="center">Santiago - Chile</p>
-    <p align="center">(09) 7649 2250</p>
-    <p align="center">maka.osses@gmail.com</p>
-    <br />
-    <h3>Resumen</h3>
+    <main>
+      <section id="Acerca-de-mi" class="container text-center my-5">
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
 
-    <p>
-      Ingeniero Civil Informático – Universidad Diego Portales con 13 años de
-      experiencia, de los cuales 5 años han sido como desarrollador de programas
-      (C, C++ y Cobol) y 8 años como Quality Assurance (QA) y optimización de
-      procesos. Capacidad de adaptación y organización. Colaborativa y dispuesta
-      a enfrentar nuevos retos.
-    </p>
-    <h3>Experiencia Profesional</h3>
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>TAPP</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Enero 2023 - Hoy dia</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>Analista QA</h4>
-          <ol>
-            <li>Diseño y rediseño de casos de pruebas.</li>
-            <li>Ejecución de casos de pruebas.</li>
-            <li>Creación de informes</li>
-            <li>Soporte</li>
-          </ol>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>Tecnova</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Diciembre 2021 - Diciembre 2022</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>QA</h4>
-          <ul>
-            <li>Proyecto TAPP</li>
-            <ul>
-              <li>Ejecución de casos de pruebas.</li>
+        <p class="my-4">
+          Ingeniero Civil Informático – Universidad Diego Portales con 17 años
+          de experiencia, de los cuales 5 años han sido como desarrollador de
+          programas (C, C++ y Cobol) y 8 años como Quality Assurance (QA) y
+          optimización de procesos. Capacidad de adaptación y organización.
+          Colaborativa y dispuesta a enfrentar nuevos retos.
+        </p>
+        <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+          <h2 class="display-4 fw-bold text-center text-light mb-3">
+            Experiencia Profecional
+          </h2>
+
+          <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+              <div class="card">
+                <div
+                  class="image-top"
+                  style="background-image: url(assets/img/Tapp.png)"
+                ></div>
+                <div class="card-body">
+                  <table class="table table-borderless">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="h1">TAPP</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="text-start">Santiago</th>
+                        <td>Enero 2023 -Hoy dia</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Analista QA</th>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          Diseño y rediseño de casos de pruebas. Ejecución de
+                          casos de pruebas. Creación de informes Soporte
+                        </th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <button type="button" class="btn btn-outline-info">
+                    Ver más
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+              <div class="card">
+                <div
+                  class="image-top"
+                  style="background-image: url(assets/img/Falda.jpg)"
+                ></div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Falda hipie</h5>
+                  <p class="card-text">
+                    Falda creada con magia y mucha paciencia, tiene una mezcla
+                    de granies y varios tipos de puntos los cuales despues de
+                    algunas filas se hace mas facil ir creandola. Al ir
+                    creandola desde la cintura puedes crearla hasta el largo que
+                    uno desea.
+                  </p>
+                  <button type="button" class="btn btn-outline-info">
+                    Ver más
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+              <div class="card">
+                <div
+                  class="image-top"
+                  style="background-image: url(assets/img/Rosa.jpg)"
+                ></div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Rosa Eterna</h5>
+                  <p class="card-text">
+                    Esta rosa fue el primer trabajo lo ame, este regalo fue
+                    realizado con amor y paciencia. La lana utilizada es gruesa
+                    por lo quela rosa queda grande y bella, con una lana mas
+                    delgada la rosa queda mas pequeñas.
+                  </p>
+                  <button type="button" class="btn btn-outline-info">
+                    Ver más
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-volleyball fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">El Voley en mi Vida</h3>
+            <p class="my-3">
+              Me encanta el Voleyball lo juego desde los 7 años, desde ese
+              tiempo jugue por mi colegio y a los 11 empece a jugas en un club
+              deportivo, en el cual jugue hasta los 18. Cuando ingrese a la
+              Universidad segui jugando. Cuando termine la Universidad deje de
+              jugar por distintas elecciones. Hace un año mas o menos volvi a
+              jugar y me complementa y ayuda a estar mas feliz.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-book fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Amor por la Lectura</h3>
+            <p class="my-3">
+              Cuando pequeña me cargaba leer todo tipo de libros, pero hace
+              algunos años atras una amiga me recomendo un libro y desde
+              entonces no he parado de leer. Me gustan mucho los romanticos
+              eroticos y los historicos, pro siempre en el tema romantico por
+              detras.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <i class="fa-solid fa-hand-sparkles fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Creadora de Magia</h3>
+            <p class="my-3">
+              Hece como tres años empece a crear magia con mis manos, a crear
+              ropa o muñecos de lana, la mayoria para regalar o cosas para usar.
+              Aun estoy aprendiendo a mejorar para seguir creando Magia y seguir
+              buscando mis sueños.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <h3>Experiencia Profesional</h3>
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>TAPP</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Enero 2023 - Hoy dia</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>Analista QA</h4>
+            <ol>
               <li>Diseño y rediseño de casos de pruebas.</li>
-            </ul>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>Magnet</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Noviembre 2020 - Noviembre 2021</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>QA</h4>
-          <ul>
-            <li>Proyecto ProChile</li>
-            <ul>
               <li>Ejecución de casos de pruebas.</li>
-              <li>Diseño y rediseño de casos de pruebas.</li>
-            </ul>
-            <li>Proyecto RNE</li>
+              <li>Creación de informes</li>
+              <li>Soporte</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>Tecnova</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Diciembre 2021 - Diciembre 2022</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>QA</h4>
             <ul>
-              <li>Ejecución de casos de pruebas.</li>
-              <li>Diseño y rediseño de casos de pruebas.</li>
-              <li>Recepción de Fedback</li>
-              <li>Actualización de documentación</li>
-            </ul>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>Kibernum</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Febrero 2015 – Octubre 2016</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>Tester (Citigroup)</h4>
-          <ul>
-            <li>
-              Participa en el Proyecto ERT, a cargo de la ejecución de los
-              procesos para determinar los errores antes de la entrada en
-              productivo, generando reportes de ejecución y control.
-            </li>
-            <li>
-              Gestiona el Proyecto ASP & RCO (proyectos de Mainframe), a cargo
-              de los Análisis y Testing, liderando el equipo que apoya las
-              siguientes funciones:
-            </li>
-            <ul>
-              <li>Diseño y rediseño de casos de pruebas.</li>
-              <li>Análisis de documentos y datos para la ejecución</li>
-              <li>Ejecución de casos de pruebas.</li>
-            </ul>
-            <li>
-              Lidera el Proyecto SG, a cargo de los Análisis y Testing, lidera
-              equipos de apoyo para la ejecución de reportes, organizando el
-              desarrollo del proyecto, diseño y rediseño de casos de pruebas,
-              análisis de documentos y datos para la ejecución y ejecución de
-              casos de pruebas.
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>Kibernum</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Noviembre 2013 – Diciembre 2014</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>Tester (Citigroup)</h4>
-          <ul>
-            <li>
-              Colabora en el Proyecto BAU (Centro América, Argentina, Perú y
-              Colombia)
-            </li>
-            <ul>
-              <li>
-                A cargo de Centro América y Argentina con un equipo responsable
-                de:
-              </li>
-              <ol>
-                <li>Realización de reportes</li>
-                <li>Organización de desarrollo del proyecto</li>
+              <li>Proyecto TAPP</li>
+              <ul>
                 <li>Ejecución de casos de pruebas.</li>
                 <li>Diseño y rediseño de casos de pruebas.</li>
-              </ol>
+              </ul>
             </ul>
-            <li>
-              Participa en el Proyecto Citimanager, Brasil, en este proyecto se
-              cumplió con la ejecución y resolución de casos de pruebas.
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>Practia Consulting</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Abril 2012 - Octubre 2013</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>Quality Assurance (QA)</h4>
-          <ul>
-            <li>
-              Proyectos en Sodimac “Retiro en Tienda” y “Diferencia Precios
-              UXPOS DTE RIDEAS”, responsable de la ejecución de casos de
-              pruebas.
-            </li>
-            <li>
-              Proyecto Sodimac “Portal de Pagos”, responsable del diseño y
-              rediseño de casos de pruebas.
-            </li>
-            <li>
-              Proyecto Cencosud “Comprar Mejor”, “Vista Paris” y “EASY”, en
-              estos proyectos se cumplió con la siguiente función:
-            </li>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>Magnet</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Noviembre 2020 - Noviembre 2021</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>QA</h4>
+            <ul>
+              <li>Proyecto ProChile</li>
+              <ul>
+                <li>Ejecución de casos de pruebas.</li>
+                <li>Diseño y rediseño de casos de pruebas.</li>
+              </ul>
+              <li>Proyecto RNE</li>
+              <ul>
+                <li>Ejecución de casos de pruebas.</li>
+                <li>Diseño y rediseño de casos de pruebas.</li>
+                <li>Recepción de Fedback</li>
+                <li>Actualización de documentación</li>
+              </ul>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>Kibernum</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Febrero 2015 – Octubre 2016</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>Tester (Citigroup)</h4>
             <ul>
               <li>
-                Aseguramiento de calidad, auditando la existencia y contenido de
-                los documentos de pruebas realizadas por cada etapa del
-                proyecto, tales como: Plan de prueba, Diseño de pruebas
-                (Unitarias, usuario, integradas y sistema) Checklist de
-                ambientes. Certificación QC en Programa Microstrategy.
-              </li>
-            </ul>
-            <li>
-              Lidera Proyecto Cencosud “TOC”, en este proyecto se realizó la
-              ejecución, diseño y rediseño de casos de pruebas, generación de
-              datos para las pruebas y levantamiento de Incidencias.
-            </li>
-            <li>
-              Proyecto Cencosud “Seguros Cencosud”, responsable del diseño de
-              casos de pruebas.
-            </li>
-            <li>
-              Proyecto Cencosud “Nueva Paris”, en este proyecto se ejecutaron
-              los casos de pruebas.
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>Experian Services Chile</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Abril 2007 - Febrero 2012</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>Desarrollador</h4>
-          <ul>
-            <li>Desarrollo de programas en C, C++, JCL, COBOL.</li>
-            <li>Conocimiento del Sistema IBM (MAINFRAME, ENDEVOR)</li>
-            <li>Manejo de proyectos</li>
-            <ul>
-              <li>BK7, integrar nueva ley de bancarrotas al sistema.</li>
-              <li>
-                Smart Purge, eliminación de la base de datos de datos caducados.
+                Participa en el Proyecto ERT, a cargo de la ejecución de los
+                procesos para determinar los errores antes de la entrada en
+                productivo, generando reportes de ejecución y control.
               </li>
               <li>
-                Aqua Purge, eliminación de la base de datos de datos caducados.
+                Gestiona el Proyecto ASP & RCO (proyectos de Mainframe), a cargo
+                de los Análisis y Testing, liderando el equipo que apoya las
+                siguientes funciones:
               </li>
-              <li>ARM, Transferencia de datos entre bases de datos.</li>
+              <ul>
+                <li>Diseño y rediseño de casos de pruebas.</li>
+                <li>Análisis de documentos y datos para la ejecución</li>
+                <li>Ejecución de casos de pruebas.</li>
+              </ul>
+              <li>
+                Lidera el Proyecto SG, a cargo de los Análisis y Testing, lidera
+                equipos de apoyo para la ejecución de reportes, organizando el
+                desarrollo del proyecto, diseño y rediseño de casos de pruebas,
+                análisis de documentos y datos para la ejecución y ejecución de
+                casos de pruebas.
+              </li>
             </ul>
-            <li>
-              Mantención de sistemas, se verificaba que estos procesos se
-              ejecutaran correctamente, corrigiendo los errores y verificando
-              actualizaciones de nuevas tecnologías.
-            </li>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>Kibernum</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Noviembre 2013 – Diciembre 2014</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>Tester (Citigroup)</h4>
             <ul>
-              <li>Name Parse</li>
-              <li>Access Methods</li>
+              <li>
+                Colabora en el Proyecto BAU (Centro América, Argentina, Perú y
+                Colombia)
+              </li>
+              <ul>
+                <li>
+                  A cargo de Centro América y Argentina con un equipo
+                  responsable de:
+                </li>
+                <ol>
+                  <li>Realización de reportes</li>
+                  <li>Organización de desarrollo del proyecto</li>
+                  <li>Ejecución de casos de pruebas.</li>
+                  <li>Diseño y rediseño de casos de pruebas.</li>
+                </ol>
+              </ul>
+              <li>
+                Participa en el Proyecto Citimanager, Brasil, en este proyecto
+                se cumplió con la ejecución y resolución de casos de pruebas.
+              </li>
             </ul>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <table border="1" width="100%">
-      <tr>
-        <th><h4>GST</h4></th>
-        <td align="center">Santiago</td>
-        <td align="right">Agosto 2006 – Abril 2007</td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <h4>Analista QA</h4>
-          <ul>
-            <li>
-              Certificación de QA, calidad de software, revisión de la Base de
-              Datos, para el mejor funcionamiento de esta.
-            </li>
-          </ul>
-          <h4>Desarrollador</h4>
-          <ul>
-            <li>Desarrollo de programas en COBOL, JCL.</li>
-            <li>
-              Conocimiento del Sistema IBM (CHANGEMAN, HOST, MODEL OFFICE,
-              SMARTEST, CONTROL-M)
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <h3>Educacion</h3>
-    <table border="1" width="100%">
-      <tr>
-        <th align="left">Universidad Diego Portales, Santiago, 1997 - 2005</th>
-      </tr>
-      <tr>
-        <td>Ingeniero Civil Informático. Titulado con Distinción.</td>
-      </tr>
-      <tr>
-        <th align="left">
-          Colegio San Juan Evanjelista, Santiago, 1981 - 1996
-        </th>
-      </tr>
-    </table>
-    <h3>Cursos</h3>
-    <ul>
-      <li>English Course</li>
-      <ol>
-        <li>
-          Institution Global Village, Vancouver, Canada, January – May 2006
-        </li>
-        <li>
-          Institution ACPEN Academy, Santiago, Chile, July, 2006 – January 2007
-        </li>
-      </ol>
-    </ul>
-    <h3>Otros</h3>
-    <ul>
-      <li>Computación</li>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>Practia Consulting</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Abril 2012 - Octubre 2013</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>Quality Assurance (QA)</h4>
+            <ul>
+              <li>
+                Proyectos en Sodimac “Retiro en Tienda” y “Diferencia Precios
+                UXPOS DTE RIDEAS”, responsable de la ejecución de casos de
+                pruebas.
+              </li>
+              <li>
+                Proyecto Sodimac “Portal de Pagos”, responsable del diseño y
+                rediseño de casos de pruebas.
+              </li>
+              <li>
+                Proyecto Cencosud “Comprar Mejor”, “Vista Paris” y “EASY”, en
+                estos proyectos se cumplió con la siguiente función:
+              </li>
+              <ul>
+                <li>
+                  Aseguramiento de calidad, auditando la existencia y contenido
+                  de los documentos de pruebas realizadas por cada etapa del
+                  proyecto, tales como: Plan de prueba, Diseño de pruebas
+                  (Unitarias, usuario, integradas y sistema) Checklist de
+                  ambientes. Certificación QC en Programa Microstrategy.
+                </li>
+              </ul>
+              <li>
+                Lidera Proyecto Cencosud “TOC”, en este proyecto se realizó la
+                ejecución, diseño y rediseño de casos de pruebas, generación de
+                datos para las pruebas y levantamiento de Incidencias.
+              </li>
+              <li>
+                Proyecto Cencosud “Seguros Cencosud”, responsable del diseño de
+                casos de pruebas.
+              </li>
+              <li>
+                Proyecto Cencosud “Nueva Paris”, en este proyecto se ejecutaron
+                los casos de pruebas.
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>Experian Services Chile</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Abril 2007 - Febrero 2012</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>Desarrollador</h4>
+            <ul>
+              <li>Desarrollo de programas en C, C++, JCL, COBOL.</li>
+              <li>Conocimiento del Sistema IBM (MAINFRAME, ENDEVOR)</li>
+              <li>Manejo de proyectos</li>
+              <ul>
+                <li>BK7, integrar nueva ley de bancarrotas al sistema.</li>
+                <li>
+                  Smart Purge, eliminación de la base de datos de datos
+                  caducados.
+                </li>
+                <li>
+                  Aqua Purge, eliminación de la base de datos de datos
+                  caducados.
+                </li>
+                <li>ARM, Transferencia de datos entre bases de datos.</li>
+              </ul>
+              <li>
+                Mantención de sistemas, se verificaba que estos procesos se
+                ejecutaran correctamente, corrigiendo los errores y verificando
+                actualizaciones de nuevas tecnologías.
+              </li>
+              <ul>
+                <li>Name Parse</li>
+                <li>Access Methods</li>
+              </ul>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table border="1" width="100%">
+        <tr>
+          <th><h4>GST</h4></th>
+          <td align="center">Santiago</td>
+          <td align="right">Agosto 2006 – Abril 2007</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <h4>Analista QA</h4>
+            <ul>
+              <li>
+                Certificación de QA, calidad de software, revisión de la Base de
+                Datos, para el mejor funcionamiento de esta.
+              </li>
+            </ul>
+            <h4>Desarrollador</h4>
+            <ul>
+              <li>Desarrollo de programas en COBOL, JCL.</li>
+              <li>
+                Conocimiento del Sistema IBM (CHANGEMAN, HOST, MODEL OFFICE,
+                SMARTEST, CONTROL-M)
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <h3>Educacion</h3>
+      <table border="1" width="100%">
+        <tr>
+          <th align="left">
+            Universidad Diego Portales, Santiago, 1997 - 2005
+          </th>
+        </tr>
+        <tr>
+          <td>Ingeniero Civil Informático. Titulado con Distinción.</td>
+        </tr>
+        <tr>
+          <th align="left">
+            Colegio San Juan Evanjelista, Santiago, 1981 - 1996
+          </th>
+        </tr>
+      </table>
+      <h3>Cursos</h3>
       <ul>
-        <li>Manejo avanzado de Windows y Microsoft Office.</li>
-        <li>
-          Manejo intermedio de Visual Basic, C++, Java, SQLServer, COBOL,
-          Sistema IBM.
-        </li>
-        <li>Manejo básico de Java.</li>
-        <li>Quality Center, Tectia.</li>
-        <li>Jira</li>
+        <li>English Course</li>
+        <ol>
+          <li>
+            Institution Global Village, Vancouver, Canada, January – May 2006
+          </li>
+          <li>
+            Institution ACPEN Academy, Santiago, Chile, July, 2006 – January
+            2007
+          </li>
+        </ol>
       </ul>
-      <li>Hobbies</li>
+      <h3>Otros</h3>
       <ul>
-        <li>Voleyboll</li>
-        <li>Leer</li>
-        <li>Tejer</li>
+        <li>Computación</li>
+        <ul>
+          <li>Manejo avanzado de Windows y Microsoft Office.</li>
+          <li>
+            Manejo intermedio de Visual Basic, C++, Java, SQLServer, COBOL,
+            Sistema IBM.
+          </li>
+          <li>Manejo básico de Java.</li>
+          <li>Quality Center, Tectia.</li>
+          <li>Jira</li>
+        </ul>
+        <li>Hobbies</li>
+        <ul>
+          <li>Voleyboll</li>
+          <li>Leer</li>
+          <li>Tejer</li>
+        </ul>
       </ul>
-    </ul>
-    <br />
-    <a href="asset/html/portafolio.html" target="_blank"> Portfolio </a>
-    <br />
+      <br />
+    </main>
+    <footer>
+      <a href="asset/html/portafolio.html" target="_blank"> Portfolio </a>
+    </footer>
     <script
       src="https://kit.fontawesome.com/43d0eff036.js"
       crossorigin="anonymous"
