@@ -2,6 +2,7 @@
 
 body {
   font-family: "Single Day", cursive;
+  background-color: black;
 }
 
 p {
@@ -15,19 +16,9 @@ p {
   background-position: right;
 }
 
-/* Contacto */
-
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
-}
-
-@media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
-
-  .navbar-brand {
-    width: 100px;
-  }
+.foto{
+  width: 30%;
+  height: 30%;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
 }

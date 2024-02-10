@@ -45,16 +45,16 @@
       </div>
     </nav>
     <!--Header-->
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+    <header id="Hero-Section" class="text-warning text-end py-5 mt-5">
       <div class="container">
         <div class="col">
           <div>
             <img
               src="assets/img/Mia.jpeg"
-              class="rounded float-start"
+              class="rounded float-start foto"
               alt="mi foto"
             />
-            <h1 class="display-3 fw-bold my-5">Mis Datos</h1>
+            <h1 class="display-3 fw-bold my-2">Mis Datos</h1>
             <p class="text-end p-0 mb-0">Macarena Osses Vargas</p>
             <p class="text-end p-0 mb-0">Las Malvas 590-505, Las Condes</p>
             <p class="text-end p-0 mb-0">Santiago - Chile</p>
@@ -62,15 +62,24 @@
             <p class="text-end p-0">maka.osses@gmail.com</p>
           </div>
           <div class="mb-5 pb-5">
-            <button class="btn btn-lg btn-outline-success me-4">
-              <a class="nav-link" href="#trabajos">Experiencia</a>
-            </button>
-            <button class="btn btn-lg btn-outline-success me-4">
-              <a class="nav-link" href="#contacto">Educacion</a>
-            </button>
-            <button class="btn btn-lg btn-outline-success me-4">
-              <a class="nav-link" href="#contacto">Portfolio</a>
-            </button>
+            <a
+              class="btn btn-lg btn-outline-warning m-3"
+              href="#experiencia"
+              role="button"
+              >Experiencia</a
+            >
+            <a
+              class="btn btn-lg btn-outline-warning m-3"
+              href="#educacion"
+              role="button"
+              >Educacion</a
+            >
+            <a
+              class="btn btn-lg btn-outline-warning m-3"
+              href="assets/html/portafolio.html"
+              role="button"
+              >Portfolio</a
+            >
           </div>
         </div>
       </div>
@@ -87,21 +96,21 @@
         Colaborativa y dispuesta a enfrentar nuevos retos.
       </p>
       <!--Experiencia Profesional-->
-      <section id="Mis-trabajos" class="my-5 p-5 bg-info">
-        <h2 class="display-4 fw-bold text-center text-light mb-3">
+      <section class="my-5 p-5">
+        <a name="experiencia"></a>
+        <h2 class="display-4 fw-bold text-center text-success mb-3">
           Experiencia Profecional
         </h2>
-
-        <div class="container bg-white text-light p-4">
-          <div class="row gx-3 gy-3">
+        <div class="container p-4">
+          <div class="row gx-3 gy-3 justify-content-center">
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="card h-100">
+              <div class="card h-100 bg-dark border-warning">
                 <img
                   src="assets/img/TAPP.png"
                   class="card-img-top"
                   alt="TAPP"
                 />
-                <div class="card-body text-dark">
+                <div class="card-body text-success">
                   <h1 class="card-title mb-2">TAPP</h1>
                   <p class="card-text m-0 fw-light">Analista QA</p>
                   <small>
@@ -117,13 +126,13 @@
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="card h-100">
+              <div class="card h-100 bg-dark border-warning">
                 <img
                   src="assets/img/TecNova.png"
                   class="card-img-top"
                   alt="Spa"
                 />
-                <div class="card-body text-dark">
+                <div class="card-body text-success">
                   <h1 class="card-title fw-light mb-2">Tecnova</h1>
                   <p class="card-text m-0 fw-light">QA</p>
                   <small>
@@ -139,13 +148,13 @@
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="card h-100">
+              <div class="card h-100 bg-dark border-warning">
                 <img
                   src="assets/img/Magnet.png"
                   class="card-img-top"
                   alt="Boca"
                 />
-                <div class="card-body text-dark" font-family-base="Roboto">
+                <div class="card-body text-success" font-family-base="Roboto">
                   <h1 class="card-title fw-light mb-2">Magnet</h1>
                   <p class="card-text m-0 fw-light">Analista QA</p>
                   <small>
@@ -165,141 +174,99 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-outline-info">Ver más</button>
       </section>
     </section>
     <!--Educacion-->
-    <section id="educacion" class="my-5 p-5 bg-info">
-      <h2 class="display-4 fw-bold text-center text-light mb-3">Educación</h2>
-
-      <div class="row">
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div class="card-body">
-              <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th scope="col" class="h1">Desafio Latam</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Santiago</th>
-                    <td>Diciembre 2023 -Hoy dia</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Desarrollo Full Stack JavaScript</th>
-                  </tr>
-                </tbody>
-              </table>
+    <a name="educacion"></a>
+    <section id="educacion" class="my-5 p-5">
+      <h2 class="display-4 fw-bold text-center text-success mb-3">Educación</h2>
+      <div class="container p-4">
+        <div class="row gx-3 gy-3 justify-content-center">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card h-100 bg-dark border-warning">
+              <div class="card-body text-success">
+                <h1 class="card-title mb-2">
+                  Desarrollo Full Stack JavaScript
+                </h1>
+                <p class="card-text m-0 fw-light">Desafio Latam</p>
+              </div>
+              <div class="card-footer text-end text-success fw-bold">
+                <p class="fs-6 m-0">Diciembre 2023 -Hoy dia</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div class="card-body">
-              <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th scope="col" class="h1">Universidad Diego Portales</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Santiago</th>
-                    <td>1997 - 2005</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Ingeniero Civil Informatico</th>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card h-100 bg-dark border-warning">
+              <div class="card-body text-success">
+                <h1 class="card-title fw-light mb-2">
+                  Ingeniero Civil Informatico
+                </h1>
+                <p class="card-text m-0 fw-light">Universidad Diego Portales</p>
+              </div>
+              <div class="card-footer text-end text-success fw-bold">
+                <p class="fs-6 m-0">1997 - 2005</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div class="card-body">
-              <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th scope="col" class="h1">Colegio San Juan Evaljelista</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Santiago</th>
-                    <td>1981 - 1996</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card h-100 bg-dark border-warning">
+              <div class="card-body text-success" font-family-base="Roboto">
+                <h1 class="card-title fw-light mb-2">Enseñanza Media</h1>
+                <p class="card-text m-0 fw-light">
+                  Colegio San Juan Evanjelista
+                </p>
+              </div>
+              <div class="card-footer text-end text-success fw-bold">
+                <p class="fs-6 m-0">1981 - 1996</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!--Cursos-->
-    <section id="Cursos" class="my-5 p-5 bg-info">
-      <h2 class="display-4 fw-bold text-center text-light mb-3">Cursos</h2>
-
-      <div class="row">
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div class="card-body">
-              <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th scope="col" class="h1">Institution Global Village</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Vancouver, Canada</th>
-                    <td>Enero - Mayo 2006</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Ingles</th>
-                  </tr>
-                </tbody>
-              </table>
+    <section id="Cursos" class="my-5 p-5">
+      <h2 class="display-4 fw-bold text-center text-success mb-3">Cursos</h2>
+      <div class="container p-4">
+        <div class="row gx-4 gy-4 justify-content-center">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card h-100 bg-dark border-warning">
+              <div class="card-body text-success">
+                <h1 class="card-title mb-2">Ingles</h1>
+                <p class="card-text m-0 fw-light">Institution Global Village</p>
+                <small>
+                  <p class="m-0 fw-light">Vancouver, Canada</p>
+                </small>
+              </div>
+              <div class="card-footer text-end text-success fw-bold">
+                <p class="fs-6 m-0">Enero - Mayo 2006</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div class="card-body">
-              <table class="table table-borderless">
-                <thead>
-                  <tr>
-                    <th scope="col" class="h1">Institution ACPEN Academy</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Santiago</th>
-                    <td>Julio 2006 -Enero 2007</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Ingles</th>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card h-100 bg-dark border-warning">
+              <div class="card-body text-success">
+                <h1 class="card-title fw-light mb-2">Ingles</h1>
+                <p class="card-text m-0 fw-light">Institution ACPEN Academy</p>
+                <small> <p class="m-0 fw-light">Santiago</p></small>
+              </div>
+              <div class="card-footer text-end text-success fw-bold">
+                <p class="fs-6 m-0">Julio 2006 -Enero 2007</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-outline-info">Ver más</button>
     </section>
 
     <!--Otros-->
-    <section id="Otros" class="my-5 p-5 bg-info">
-      <h2 class="display-4 fw-bold text-center text-light mb-3">Otros</h2>
-
-      <div class="row">
+    <section id="Otros" class="my-5 p-5">
+      <h2 class="display-4 fw-bold text-center text-success mb-3">Otros</h2>
+      <div class="row justify-content-center">
         <div class="col-12 col-sm-4 py-2">
-          <div class="card">
+          <div class="card bg-dark border-warning">
             <div class="card-body">
-              <table class="table table-borderless">
+              <table class="table table-borderless text-success">
                 <thead>
                   <tr>
                     <th scope="col" class="h1">Habilidades</th>
@@ -332,9 +299,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-4 py-2">
-          <div class="card">
+          <div class="card bg-dark border-warning">
             <div class="card-body">
-              <table class="table table-borderless">
+              <table class="table table-borderless text-success">
                 <thead>
                   <tr>
                     <th scope="col" class="h1">Hobbies</th>
@@ -356,11 +323,10 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-outline-info">Ver más</button>
     </section>
     <!--Footer-->
-    <footer class="bg-white text-white mt-4 p-3 text-center">
-      <p class="text-black justify-content-md-center fw-light">
+    <footer class="bg-black text-white mt-4 p-3 text-center">
+      <p class="text-success justify-content-md-center fw-light">
         © 2024 Macarena Osses .Todos los derechos reservados.
       </p>
     </footer>
