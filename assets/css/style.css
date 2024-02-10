@@ -15,16 +15,6 @@ p {
   background-position: right;
 }
 
-
-/* Mis trabajos */
-
-#Mis-trabajos .image-top {
-  height: 550px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 /* Contacto */
 
 #Contacto form label {
