@@ -48,47 +48,25 @@
     <header id="Hero-Section" class="text-warning text-end py-5 mt-5">
       <div class="container">
         <div class="col">
-          <div>
+          <div class="pb-5 mt-5">
             <img
               src="assets/img/Mia.jpeg"
-              class="rounded float-start foto"
+              class="float-start rounded foto"
               alt="mi foto"
             />
-            <h1 class="display-3 fw-bold my-2">Mis Datos</h1>
-            <p class="text-end p-0 mb-0">Macarena Osses Vargas</p>
-            <p class="text-end p-0 mb-0">Las Malvas 590-505, Las Condes</p>
-            <p class="text-end p-0 mb-0">Santiago - Chile</p>
-            <p class="text-end p-0 mb-0">(09) 7649 2250</p>
-            <p class="text-end p-0">maka.osses@gmail.com</p>
+            <h1 class="display-3 fw-bold my-2">Mis Datos</h1><br><br><br>
+            <p class="text-end p-0 mb-0">Macarena Osses Vargas<br>Las Malvas 590-505, Las Condes <br> Santiago - Chile <br> (09) 7649 2250 <br> maka.osses@gmail.com <br><br></p>
           </div>
-          <div class="mb-5 pb-5">
-            <a
-              class="btn btn-lg btn-outline-warning m-3"
-              href="#experiencia"
-              role="button"
-              >Experiencia</a
-            >
-            <a
-              class="btn btn-lg btn-outline-warning m-3"
-              href="#educacion"
-              role="button"
-              >Educacion</a
-            >
-            <a
-              class="btn btn-lg btn-outline-warning m-3"
-              href="assets/html/portafolio.html"
-              role="button"
-              >Portfolio</a
-            >
-          </div>
+          <!-- SE ELIMNA BOTONES DEBIDO A REDUNDANCIA DE INFORMACIÓN CON EL NAVBAR -->
         </div>
       </div>
     </header>
     <!--Acerca de Mi-->
-    <section id="Acerca-de-mi" class="container text-center my-5 text-success">
-      <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
-
-      <p class="my-4 fs-5">
+    <section id="Acerca-de-mi" class="container-fluid text-center my-5 text-success">
+      <!-- se agrega un cointainer fluid para uniformar la información -->
+      <h2 class="display-3 fw-bold my-4 bg-white">Acerca de mi</h2>
+      <!-- SE AGREGA FONDO BLANCO PARA DAR CONTRASTE CON EL FONDO -->
+      <p class="my-4 fs-5 bg-white">
         Ingeniero Civil Informático – Universidad Diego Portales con 17 años de
         experiencia, de los cuales 5 años han sido como desarrollador de
         programas (C, C++ y Cobol) y 8 años como Quality Assurance (QA) y
@@ -98,10 +76,11 @@
       <!--Experiencia Profesional-->
       <section class="my-5 p-5">
         <a name="experiencia"></a>
-        <h2 class="display-4 fw-bold text-center text-success mb-3">
+        <h2 class="display-4 fw-bold text-center text-success mb-3 bg-white">
+          <!-- SE AGREGA FONDO BLANCO PARA CONTRASTE -->
           Experiencia Profecional
         </h2>
-        <div class="container p-4">
+        <div class="container-fluid p-4">
           <div class="row gx-3 gy-3 justify-content-center">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="card h-100 bg-dark border-warning">
@@ -179,7 +158,8 @@
     <!--Educacion-->
     <a name="educacion"></a>
     <section id="educacion" class="my-5 p-5">
-      <h2 class="display-4 fw-bold text-center text-success mb-3">Educación</h2>
+      <h2 class="display-4 fw-bold text-center text-success mb-3 bg-white">Educación</h2>
+       <!-- SE AGREGA FONDO BLANCO PARA CONTRASTE -->
       <div class="container p-4">
         <div class="row gx-3 gy-3 justify-content-center">
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -226,7 +206,8 @@
     </section>
     <!--Cursos-->
     <section id="Cursos" class="my-5 p-5">
-      <h2 class="display-4 fw-bold text-center text-success mb-3">Cursos</h2>
+      <h2 class="display-4 fw-bold text-center text-success mb-3 bg-white">Cursos</h2>
+       <!-- SE AGREGA FONDO BLANCO PARA CONTRASTE -->
       <div class="container p-4">
         <div class="row gx-4 gy-4 justify-content-center">
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -261,7 +242,8 @@
 
     <!--Otros-->
     <section id="Otros" class="my-5 p-5">
-      <h2 class="display-4 fw-bold text-center text-success mb-3">Otros</h2>
+      <h2 class="display-4 fw-bold text-center text-success mb-3 bg-white">Otros</h2>
+       <!-- SE AGREGA FONDO BLANCO PARA CONTRASTE -->
       <div class="row justify-content-center">
         <div class="col-12 col-sm-4 py-2">
           <div class="card bg-dark border-warning">
@@ -325,12 +307,12 @@
       </div>
     </section>
     <!--Footer-->
-    <footer class="bg-black text-white mt-4 p-3 text-center">
-      <p class="text-success justify-content-md-center fw-light">
+    <footer class="container-fluid bg-black text-white mt-4 p-3 text-center">
+      <p class="text-success justify-content-md-center fw-light bg-white">
         © 2024 Macarena Osses .Todos los derechos reservados.
+         <!-- SE AGREGA FONDO BLANCO PARA CONTRASTE -->
       </p>
     </footer>
-    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
